@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.books-section-quarter {
+  background-color: white;
+  color: black;
+}
+
+.movies-section-quarter {
+  background-color: red;
+}
+
+.artists-section-quarter {
+  background-color: yellow;
+  color: black;
+}
+
+.players-section-quarter {
+  background-color: green;
+}
