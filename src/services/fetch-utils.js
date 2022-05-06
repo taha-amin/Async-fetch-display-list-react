@@ -11,3 +11,15 @@ export async function getMovies() {
 
   return response.body;
 }
+
+export async function getArtists() {
+  const response = await client.from('artists').select('*');
+
+  return response.body;
+}
+
+export async function getPlayers() {
+  const response = await client.from('players').select('*');
+
+  return response.body;
+}
